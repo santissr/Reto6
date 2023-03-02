@@ -1,0 +1,288 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100vw;
+  height: fit-content;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  width: 75.7rem;
+  height: 74.1rem;
+
+  background: #b67c37;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 4rem;
+
+  width: 36.9rem;
+  height: 56.5rem;
+
+  background: #1c1c21;
+}
+
+.imgContainer {
+  width: 16.5rem;
+  height: 16.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userImg {
+  width: 13.7rem;
+  height: 13.7rem;
+  border-radius: 50rem;
+}
+
+.imgCircle1 {
+  position: absolute;
+  width: 16.5rem;
+  height: 16.5rem;
+  left: 0;
+  top: 0;
+  border: 0.1rem solid white;
+  border-radius: 50rem;
+}
+
+.imgCircle2 {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  left: 5%;
+  top: 5%;
+  border: 0.1rem solid white;
+  border-radius: 50rem;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 20.2rem;
+  height: 6.3rem;
+}
+
+.name {
+  width: 20.2rem;
+  height: 3.6rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+
+  color: #a0978f;
+}
+
+.profesion {
+  width: 12.5rem;
+  height: 2.7rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  color: #a0978f;
+}
+
+.bFollow {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  margin: 2.3rem;
+
+  width: 23.1rem;
+  height: 5.6rem;
+
+  background: #1c1c21;
+  border: 0.1rem solid #fff9f9;
+  border-radius: 2.2rem;
+}
+
+.bMessage {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2.3rem;
+  gap: 1rem;
+  margin: 2.3rem;
+
+  width: 23.4rem;
+  height: 5.6rem;
+
+  background: #1c1c21;
+  border: 0.1rem solid #fff9f9;
+  border-radius: 2.2rem;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 0.1rem;
+
+  width: 23.4rem;
+  height: 55.8rem;
+
+  background: #000000;
+}
+
+.blockPosts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  width: 23.4rem;
+  height: 18.1rem;
+
+  background: #462a16;
+}
+
+.p1Block1 {
+  width: 5.6rem;
+  height: 3.6rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+
+  color: #c2b4a7;
+}
+
+.p2Block1 {
+  width: 5.8rem;
+  height: 2.7rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+
+  color: #c2b4a7;
+}
+
+.blockLikes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  width: 23.4rem;
+  height: 18.8rem;
+
+  background: #462a16;
+}
+
+.p1Block2 {
+  width: 6.9rem;
+  height: 3.6rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+
+  color: #c2b4a7;
+}
+
+.p2Block2 {
+  width: 5.4rem;
+  height: 2.7rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+
+  color: #c2b4a7;
+}
+
+.blockFollowers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  width: 23.4rem;
+  height: 18.7rem;
+
+  background: #462a16;
+}
+
+.p1Block3 {
+  width: 5.2rem;
+  height: 3.6rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+
+  color: #c2b4a7;
+}
+
+.p2Block3 {
+  width: 8.7rem;
+  height: 2.7rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+
+  color: #c2b4a7;
+}
+
+.pButtomf {
+  width: 9.1rem;
+  height: 3.6rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+
+  color: #ffffff;
+}
+
+.pButtomM {
+  width: 12.9rem;
+  height: 3.6rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+
+  color: #ffffff;
+}
